@@ -1,0 +1,150 @@
+@charset "utf-8";
+@media(min-width: 768px){
+    #spanmenu{
+        display:none;
+    }
+    header{
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+    }
+    nav ul{
+        display: block;
+    }
+    #links{
+        display: block;
+    }
+    .container1{ 
+        width: 100%;
+    }
+    .icone{
+        font-size: 30px;
+    }
+}
+
+@media(min-width:768px) and (max-width: 1200px){
+   nav ul{display: flex;} 
+   .sobreBanda{height: 80vh;}
+   .descricao{
+     display: block;
+   }
+   .descricao p{
+    font-size: 25px;
+   }
+   .icone{
+    font-size: 30px;
+   }
+
+   
+}
+@media(min-width:1200px) and (max-width:1600px){
+    nav ul{display: flex;} 
+    .descricao p{
+        font-size: 25px;
+       }
+    .descricao1 p{
+        font-size: 25px;
+       }
+       .icone{
+        font-size: 30px;
+       }
+}
+@media(min-width:300px) and (max-width:768px) {
+    .descricao p{
+        display: block;
+        color: white;
+        font-size:19px; 
+        height: 70vh;    
+    }
+    .descricao1 p{
+        display: block;
+        color: white;
+        font-size:19px; 
+        height: 70vh;    
+    }
+
+    /* Desativando a barra horizontal */
+    .contato-header{
+        overflow-x: hidden;
+        overflow: scroll;
+    }
+
+    .video-header{
+        overflow-x: hidden;
+    }
+
+    .galeria-header{
+        overflow-x: hidden;
+    }
+    #titulo-principal{
+        font-size: 17px;
+    }
+
+    /* .container {
+        width: 100%;
+    } 
+
+    .video .vd{
+        width: 300px;
+    } */
+
+    /* .contato-container {
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img .bt-contatos{
+        width: 200px;
+    } */
+
+    /* .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10, .img11, .img12, .img13, .img14{
+        text-align: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+        width: 100%;
+        height: 100vh;
+    } */
+}
+@media(width < 860px){
+    #titulo-principal{
+        font-size: 28px;
+    }
+    .fa-brands{
+        font-size: 12px;
+        line-height: 2px;
+        top: -4px;
+    }
+    div.death, div.markim,div.ely,div.popeye{
+        background-size: cover;
+        background-position: center center;
+
+    }
+    div.ely{
+        background-position: -129px;
+        background-size: 528px;
+    }
+    div.popeye{
+        background-position: -39px;
+        background-size: 553px;
+    }
+    div.death{
+        background-position: -160px 70px;
+    }
+    div.markim{
+        background-position: -160px 95px;
+    }
+    main img{
+        width: 100%;
+        margin-top: 90px;
+    }
+}
+@media (width > 760px) and (width < 1600px) {
+    div.death, div.markim,div.ely,div.popeye{
+        background-size: 1000px;
+        background-position: center center;
+    }
+}
